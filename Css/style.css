@@ -1,0 +1,536 @@
+
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    max-width: 2000px;
+    margin: 0;
+}
+
+/* FIRST BLOCK*/
+
+
+.first_block{
+    height: 900px;
+}
+
+.main_background{
+    display: flex;
+}
+
+.main_background img{
+    width: 100%;
+}
+
+.menu{
+    color: #a6a6a6;
+    margin-top: 40px;
+    margin-right: 550px;
+}
+
+.wooder_first{
+    position: relative;
+}
+
+.header{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #a6a6a6;
+    position: absolute;
+    display: flex;
+    top: 10px;
+}
+
+.company_name{
+    color: white;
+    font-size: 36px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.company_name:hover{
+    text-decoration: line-through;
+}
+
+.info_item{
+    width: 25px;
+    height: 25px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 2px;
+    background-color:  #bea67c;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -8px);
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+
+.menu_item{
+   margin: 33px 10px 0 30px;
+}
+
+.header_item{
+    margin-top: 40px;
+}
+
+.h_item{
+    padding-left: 100px;
+}
+
+.info_item{
+    margin: 35px 50px 0 50px;
+}
+
+.languages{
+    margin-top: 40px;
+}
+
+.menu:hover{
+    color: #bea67c;
+}
+
+.h_item:hover{
+    color: #bea67c;
+}
+
+.yellow_line{
+    height: 50px;
+    width: 4px;
+    background-color: #bea67c;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.number_page{
+    color: #bea67c;
+    -webkit-writing-mode: vertical-rl;
+     writing-mode:tb-rl;
+     font-size: 52.4px;
+}
+
+.main_info{
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    display: flex;
+}
+
+.circle{
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #bea67c;
+}
+
+.WOODER{
+    font-size: 100PX;
+    text-transform: uppercase;
+    color: #bea67c;
+}
+
+.navigation{
+    margin-left: 250px;
+}
+
+.learn_more_button{
+    font-size: 14px;
+    border-color: white;
+    text-transform: uppercase;
+    color: white;
+    padding: 20px 80px;
+    background-color: inherit;
+    border-radius: 0px;
+}
+
+.line_1{
+    height: 50px;
+    width: 5px;
+    background-color: #bea67c;
+    position: absolute;
+    right: 360px;
+    top: 800px;
+}
+
+
+/* SECOND BLOCK*/
+
+
+.second_block{
+    height: 1950px;
+}
+
+.first_good{
+    display: flex;
+}
+
+.line_2{
+    background-color: black;
+    width: 150px;
+    height: 1px;
+    margin-bottom: 55px;
+    margin-top: 24px;
+}
+
+.line_3{
+    background-color: #bea67c;
+    width: 45px;
+    height: 5px;
+    margin-bottom: 180px;
+    margin-left: 100px;
+}
+
+.line_4{
+    background-color: #bea67c;
+    height: 50px;
+    width: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+.items{
+    margin-top: 60px;
+    margin-left: 275px;
+}
+
+.good_image_1{
+    height: 270px;
+    width: 415px;
+    margin-left: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+.goods_info{
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
+.good_name{
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.learn_more{
+    text-transform: uppercase;
+    color: black;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.goods{
+    position: relative;
+}
+
+
+.subscription{
+    font-size: 15px;
+    color: #464646;
+}
+
+.number_of_goods{
+    font-size: 36px;
+    display: flex;
+}
+
+.circle_2{
+    background-color: #bea67c;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    margin-top: 33px;
+    margin-left: 3px;
+}
+
+.line_5{
+    margin-top: 3px;
+    width: 45px;
+    height: 3px;
+    background-color: #bea67c;
+    transition: width 1s;
+}
+
+.animation_1:hover .line_5{
+    width: 115px;
+}
+
+.box_1{
+    display: flex;
+}
+
+.arrow{
+    font-size: 14px;
+    color: #bea67c;
+    margin-left: 7px;
+}
+
+.hiddent_text_1{
+    font-family: "Proxima Nova";
+    color: rgba(208, 208, 208, 0.2);
+    font-size: 170px;
+    text-transform: uppercase;
+    text-align: left;
+    position: absolute;
+    display: block;
+    left: 910px;
+    top: 50px;
+}
+
+.second_good{
+    display: flex;
+}
+
+.good_image_2{
+    height: 270px;
+    width: 415px;
+    margin-left: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+.goods_info_2{
+    text-align: right;
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-right: 35px;
+}
+
+.items_2{
+    margin-top: 60px;
+}
+
+.items_2 .line_3{
+    margin-left: 0;
+}
+
+.hiddent_text_2{
+    font-family: "Proxima Nova";
+    color: rgba(208, 208, 208, 0.2);
+    font-size: 170px;
+    text-transform: uppercase;
+    text-align: left;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.hiddent_text_3{
+    font-family: "Proxima Nova";
+    color: rgba(190, 166, 124, 0.071);
+    font-size: 395px;
+    text-transform: uppercase;
+    text-align: left;
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+}
+
+.wooder_info .line_3{
+    margin: 0;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+
+.wooder_info p{
+    margin: 0;
+    padding: 0;
+}
+
+.wooder_slogan{
+    font-family: "Proxima Nova";
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.work_info{
+    text-align: center;
+    font-size: 15px;
+    color: #464646;
+}
+
+.videos{
+    display: flex;
+    justify-content: center;
+    margin: 80px 200px 80px 200px;
+    padding: 20xp;
+}
+
+.video{
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #a6a6a6;
+    padding: 13px;
+    margin: auto;
+}
+
+.videos .line_3{
+    margin: 0;
+    height: 1px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.video_subscribe{
+    text-align: center;
+    font-size: 15px;
+}
+
+.video_box{
+    margin: auto;
+}
+
+/* Third block*/
+
+.third_block{
+    height: 910px;
+    background-image: url(../Images/images/images/second_background_03.jpg);
+}
+
+.recktangle{
+    height: 735px;
+    width: 1200px;
+    background-color: inherit;
+    border:1px solid #bea67c;
+    margin: auto;
+    display: flex;
+}
+
+.example{
+    padding-top: 90px;
+}
+
+.recktangle .good_name{
+    color: #bea67c;
+}
+
+.recktangle .subscription{
+    color: white;
+}
+
+.recktangle .line_2{
+    background-color: white;
+    margin-bottom: 110px;
+}
+
+.recktangle .items{
+    margin-left: 120px;
+    margin-top: 215px;
+}
+
+.recktangle .goods_info{
+    margin-top: 215px;
+}
+.watch_video_button{
+    font-size: 15px;
+    border-color: white;
+    text-transform: uppercase;
+    color: white;
+    padding: 20px 80px;
+    background-color: inherit;
+}
+
+.line_6{
+    height: 150px;
+    width: 1px;
+    background-color: white;
+    margin-top: 290px;
+    margin-left: 300px;
+}
+
+.fourth_block{
+    height: 660px;
+}
+
+.man_foto{
+    width: 600px;
+    height: 400px;
+    margin-top: 140px;
+    margin-left: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.about_us{
+    display: flex;
+    position: relative;
+}
+
+.about_us .items{
+    margin-left: -80px;
+    margin-top: 250px;
+}
+
+.about_us .goods_info{
+    margin-top: 250px;
+}
+
+.hiddent_text_4{
+    font-family: "Proxima Nova";
+    color: rgba(208, 208, 208, 0.2);
+    font-size: 170px;
+    text-transform: uppercase;
+    text-align: left;
+    position: absolute;
+    top: 270px;
+    left: -80px;
+}
+
+/*FOURTH BLOCK*/
+
+.forth_block{
+    height: 70px;
+    background-color: black;
+}
+
+.last_info{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: #a6a6a6;
+    padding-top: 20px;
+}
+
+.item_1{
+    margin: auto;
+}
+
+.item_2{
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.item_3{
+   margin: auto; 
+}
+
+.designer{
+    color:grey;
+}
